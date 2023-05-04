@@ -6,7 +6,7 @@
 /*   By: asacchin <alesacchi1907@gmail.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 14:41:05 by asacchin          #+#    #+#             */
-/*   Updated: 2023/03/15 18:09:11 by asacchin         ###   ########.fr       */
+/*   Updated: 2023/03/28 14:06:07 by asacchin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,8 @@ void	check_bit(int pid, char *msg)
 
 void	sent_signal(int i)
 {
-	(void)i;
 	ft_printf("Message sent\n");
+	ft_printf("Sent signal: %d\n", i);
 }
 
 int	main(int argc, char **argv)
